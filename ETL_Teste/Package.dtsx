@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{74C45B75-A5D6-45A3-91FC-37B3D765FA95}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{853C8BD0-637E-4CA4-AA2A-52D161377A5A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAszYZojoWx0mYPDcgo4yXNgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABwEQhftW+Qh19P0LWAEUQMAAAAAASAAACgAAAAEAAAALCN/yL7OjrBDAwwUYP1SdcQAAAAa0KU7PHDsnt0wxuXBrVsVBQAAACywEMZN6vofngEkirtrNoaVQ+ccA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAszYZojoWx0mYPDcgo4yXNgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAA6RLXPl+V+fFgewm4QivA9AAAAAASAAACgAAAAEAAAAHvqbEw1h6AUsC5+/JY9FBoQAAAAo1fWNMgJJdlar/6q7kUlNBQAAAAgWez2woCJ/xY/EwP0/Qcv/G4h4g</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -47,7 +47,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{D3A1CF40-E314-4251-9223-F39748AA09D2}"
-          SQLTask:SqlStatementSource="SELECT 0" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="SELECT 0 AS RESULT" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
